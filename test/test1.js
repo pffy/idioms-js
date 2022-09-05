@@ -8,7 +8,18 @@
  * license  : https://opensource.org/licenses/MIT
  */
 
+// object for static methods
+const PffyIdioms = require('../obj');
+
 console.time('t1-speed');
-const str1 = 'sheng1 ri4 kuai4 le4'; 
+
+// sample pinyin string
+const str1 = 'sheng1 ri4 kuai4 le4';
+
+// pbash - indexing pinyin string used in Hanyu Pinyin dictionary or pinyin document search
+console.log(PffyIdioms.pbash(str1));
+
+// psmash - indexing pinyin string used in Input Method Editors (IMEs)
 console.log(PffyIdioms.psmash(str1));
+
 console.timeEnd('t1-speed');
