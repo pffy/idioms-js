@@ -1,0 +1,20 @@
+{
+  "name": "idioms-js",
+  "version": "0.1.0",
+  "description": "pinyin processing utility class",
+  "main": "./obj.js",
+  "scripts": {
+    "test": "node ./test/test1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pffy/idioms.git"
+  },
+  "keywords": ["hanyu","pinyin","idioms","indexing"],
+  "author": "The Pffy Authors (https://pffy.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pffy/idioms-js/issues"
+  },
+  "homepage": "https://github.com/pffy/idioms-js#readme"
+}
